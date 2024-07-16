@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    background-image: url(image.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: grey;
+    display: inline-block;
+    background-color: rgb(58, 136, 253);
+    opacity: 0.5;
+    border-radius: 30px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 200px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+    
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#resultMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#submitGuess{
+    border-radius: 15px;
+    background-color: aqua;
+}
+#resetGame{
+    border-radius: 15px;
+    background-color:lemonchiffon;
+}
